@@ -1,0 +1,23 @@
+<p>
+  <label for="settings_bot_token"><%= l('bot_notifier.label_bot_token') %></label>
+  <%= text_field_tag 'settings[bot_token]',
+        settings[:bot_token],
+        id: 'settings_bot_token',
+        size: 60,
+        placeholder: '1234567890:ABCdefGHIjklMNOpqrSTUvwxYZ' %>
+  <em class="info"><%= l('bot_notifier.hint_bot_token') %></em>
+</p>
+
+<p>
+  <label><%= l('bot_notifier.label_notify_events') %></label>
+</p>
+<p>
+  <%= check_box_tag 'settings[notify_created]', '1', settings[:notify_created] == '1',
+        id: 'settings_notify_created' %>
+  <label for="settings_notify_created"><%= l('bot_notifier.label_notify_created') %></label>
+</p>
+<p>
+  <%= check_box_tag 'settings[notify_updated]', '1', settings[:notify_updated] == '1',
+        id: 'settings_notify_updated' %>
+  <label for="settings_notify_updated"><%= l('bot_notifier.label_notify_updated') %></label>
+</p>

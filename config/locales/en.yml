@@ -1,0 +1,49 @@
+en:
+  bot_notifier:
+    # Settings UI
+    label_bot_token: "Telegram Bot Token"
+    hint_bot_token: "Get token from @BotFather. Format: 123456789:ABC-DEF..."
+    label_notify_events: "Notify about events"
+    label_notify_created: "New issue"
+    label_notify_updated: "Issue changes"
+    # User form
+    label_chat_id: "Telegram Chat ID"
+    placeholder_chat_id: "e.g. 123456789"
+    hint_chat_id: "Numeric Telegram chat ID of the user"
+    # Telegram message — issue created
+    msg_new_issue: "🆕 <b>New issue: %{tracker} #%{id}</b>"
+    msg_assignee: "👤 Assignee"
+    msg_priority: "🔴 Priority"
+    msg_status: "📊 Status"
+    msg_project: "🗂 Project"
+    msg_watchers: "👁 Watchers"
+    msg_open_issue: "🔗 Open issue #%{id}"
+    # Telegram message — issue updated
+    msg_updated_issue: "✏️ <b>Update: %{tracker} #%{id}</b>"
+    msg_changes: "📋 <b>Changes:</b>"
+    msg_comment: "💬 <b>Comment:</b>"
+    msg_changed_by: "👤 Changed by"
+    # Change formatting
+    msg_file_added: "📎 File added: %{name}"
+    msg_file_removed: "🗑 File removed: %{name}"
+    msg_field_changed: "• %{field}: %{old} → %{new}"
+    msg_field_set: "• %{field}: set to %{new}"
+    msg_field_cleared: "• %{field}: removed (was %{old})"
+    # Field labels for changes
+    field_status_id: "Status"
+    field_assigned_to_id: "Assignee"
+    field_priority_id: "Priority"
+    field_fixed_version_id: "Version"
+    field_category_id: "Category"
+    field_subject: "Subject"
+    field_description: "Description"
+    field_start_date: "Start date"
+    field_due_date: "Due date"
+    field_done_ratio: "% Done"
+    field_estimated_hours: "Estimated hours"
+    field_tracker_id: "Tracker"
+    field_project_id: "Project"
+    field_attachment: "Attachment"
+    field_relation: "Relation"
+    # Validation errors
+    error_invalid_chat_id: "must be a numeric ID"

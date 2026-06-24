@@ -1,0 +1,49 @@
+uk:
+  bot_notifier:
+    # Settings UI
+    label_bot_token: "Токен Telegram бота"
+    hint_bot_token: "Отримайте токен у @BotFather. Формат: 123456789:ABC-DEF..."
+    label_notify_events: "Сповіщати про події"
+    label_notify_created: "Нова задача"
+    label_notify_updated: "Зміни по задачі"
+    # User form
+    label_chat_id: "Telegram Chat ID"
+    placeholder_chat_id: "наприклад: 123456789"
+    hint_chat_id: "Числовий ID чату Telegram користувача"
+    # Telegram message — issue created
+    msg_new_issue: "🆕 <b>Нова задача: %{tracker} #%{id}</b>"
+    msg_assignee: "👤 Виконавець"
+    msg_priority: "🔴 Пріоритет"
+    msg_status: "📊 Статус"
+    msg_project: "🗂 Проєкт"
+    msg_watchers: "👁 Спостерігачі"
+    msg_open_issue: "🔗 Відкрити задачу #%{id}"
+    # Telegram message — issue updated
+    msg_updated_issue: "✏️ <b>Оновлення: %{tracker} #%{id}</b>"
+    msg_changes: "📋 <b>Зміни:</b>"
+    msg_comment: "💬 <b>Коментар:</b>"
+    msg_changed_by: "👤 Змінив"
+    # Change formatting
+    msg_file_added: "📎 Файл додано: %{name}"
+    msg_file_removed: "🗑 Файл видалено: %{name}"
+    msg_field_changed: "• %{field}: %{old} → %{new}"
+    msg_field_set: "• %{field}: встановлено %{new}"
+    msg_field_cleared: "• %{field}: видалено (було %{old})"
+    # Field labels for changes
+    field_status_id: "Статус"
+    field_assigned_to_id: "Виконавець"
+    field_priority_id: "Пріоритет"
+    field_fixed_version_id: "Версія"
+    field_category_id: "Категорія"
+    field_subject: "Тема"
+    field_description: "Опис"
+    field_start_date: "Дата початку"
+    field_due_date: "Дата завершення"
+    field_done_ratio: "Виконано %"
+    field_estimated_hours: "Оцінка (год)"
+    field_tracker_id: "Трекер"
+    field_project_id: "Проєкт"
+    field_attachment: "Вкладення"
+    field_relation: "Зв'язок"
+    # Validation errors
+    error_invalid_chat_id: "має бути числовим ID"
